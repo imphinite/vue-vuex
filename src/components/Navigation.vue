@@ -25,13 +25,13 @@
                         font-bold
                         focus:outline-none
                         bg-green-500
+                        text-white
                         rounded
                         px-4
                         py-1
                         pt-1.5
                         mx-2
-                        hover:bg-green-50
-                        hover:text-green-500
+                        hover:bg-green-50 hover:text-green-500
                         transition
                         text-center
                     "
@@ -62,6 +62,10 @@ export default {
                 {
                     name: 'tailwind',
                     to: '/tailwind',
+                },
+                {
+                    name: 'vuex',
+                    to: '/vuex',
                 },
             ],
         }
